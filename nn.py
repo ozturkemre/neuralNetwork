@@ -11,7 +11,6 @@ class sinirAgi(object):
         self.W1 = np.random.randn(self.inputSize, self.hiddenSize)  # (3x2) giriş-gizli katman arası ağırlık matrisi
         self.W2 = np.random.randn(self.hiddenSize, self.outputSize)  # (3x1) gizli-çıkış katman arası ağırlık matrisi
 
-    def XOR(self,):
 
     def sigmoid(self, s):
         # aktivasyon fonksiyonu
